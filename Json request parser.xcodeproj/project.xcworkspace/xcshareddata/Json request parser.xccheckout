@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FF5D9E8B-7AA7-43BB-899C-E396C1F56A4C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Json request parser</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>269A2AA343C6238DE93926A08D5DCB529F4E9616</key>
+		<string>https://github.com/Aggsugar/Json-request-parser.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Json request parser.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>269A2AA343C6238DE93926A08D5DCB529F4E9616</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Aggsugar/Json-request-parser.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>269A2AA343C6238DE93926A08D5DCB529F4E9616</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>269A2AA343C6238DE93926A08D5DCB529F4E9616</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Json-request-parser</string>
+		</dict>
+	</array>
+</dict>
+</plist>

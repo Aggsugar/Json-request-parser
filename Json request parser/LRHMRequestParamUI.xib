@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6254"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="LRHMRequestParamUI">
+            <connections>
+                <outlet property="_bodyTabView" destination="6fe-ey-tZ4" id="IVL-zb-db4"/>
+                <outlet property="_formView" destination="IxV-g0-A3n" id="c1Q-Bf-Fev"/>
+                <outlet property="_headerView" destination="wXz-fb-HMK" id="WEg-yd-keZ"/>
+                <outlet property="_paramsView" destination="57W-Jk-hUe" id="IkF-NL-LyE"/>
+                <outlet property="_rawTextView" destination="eOA-4v-zgm" id="uAp-4Z-V1u"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="526" height="646"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <customView id="hIt-lK-eos">
+                    <rect key="frame" x="0.0" y="301" width="506" height="345"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <subviews>
+                        <tabView id="zH6-0M-hL1">
+                            <rect key="frame" x="13" y="1" width="480" height="330"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <tabViewItems>
+                                <tabViewItem label="URL params" identifier="1" id="6Q6-fU-Ugy">
+                                    <view key="view" id="57W-Jk-hUe" customClass="LRHMDictionaryFieldView">
+                                        <rect key="frame" x="10" y="33" width="460" height="284"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </view>
+                                </tabViewItem>
+                                <tabViewItem label="Headers" identifier="2" id="FqS-76-nqH">
+                                    <view key="view" id="wXz-fb-HMK" customClass="LRHMDictionaryFieldView">
+                                        <rect key="frame" x="10" y="33" width="460" height="284"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </view>
+                                </tabViewItem>
+                            </tabViewItems>
+                        </tabView>
+                    </subviews>
+                </customView>
+                <customView id="IHl-5U-StH">
+                    <rect key="frame" x="0.0" y="0.0" width="506" height="303"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <subviews>
+                        <box verticalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="JP0-8S-Kda">
+                            <rect key="frame" x="12" y="296" width="517" height="9"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                            <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <font key="titleFont" metaFont="system"/>
+                        </box>
+                        <tabView id="6fe-ey-tZ4">
+                            <rect key="frame" x="18" y="10" width="478" height="292"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <tabViewItems>
+                                <tabViewItem label="x-www-form-urlencoded" identifier="1" id="UE5-gm-iUb">
+                                    <view key="view" id="IxV-g0-A3n" customClass="LRHMDictionaryFieldView">
+                                        <rect key="frame" x="10" y="33" width="458" height="246"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </view>
+                                </tabViewItem>
+                                <tabViewItem label="raw" identifier="2" id="udN-yD-43r">
+                                    <view key="view" id="ZBO-nm-Sep">
+                                        <rect key="frame" x="10" y="33" width="458" height="246"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" id="yWu-9w-Jdr">
+                                                <rect key="frame" x="-3" y="-3" width="464" height="250"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <clipView key="contentView" id="Vpx-At-eqZ">
+                                                    <rect key="frame" x="1" y="1" width="223" height="133"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                    <subviews>
+                                                        <textView importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="eOA-4v-zgm">
+                                                            <rect key="frame" x="0.0" y="0.0" width="223" height="253"/>
+                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <size key="minSize" width="447" height="248"/>
+                                                            <size key="maxSize" width="464" height="10000000"/>
+                                                            <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                            <size key="minSize" width="447" height="248"/>
+                                                            <size key="maxSize" width="464" height="10000000"/>
+                                                        </textView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </clipView>
+                                                <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="Qr0-AE-cZA">
+                                                    <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </scroller>
+                                                <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="hhc-8A-Oux">
+                                                    <rect key="frame" x="224" y="1" width="15" height="133"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </scroller>
+                                            </scrollView>
+                                        </subviews>
+                                    </view>
+                                </tabViewItem>
+                            </tabViewItems>
+                        </tabView>
+                    </subviews>
+                </customView>
+            </subviews>
+            <point key="canvasLocation" x="382" y="452"/>
+        </customView>
+    </objects>
+</document>
