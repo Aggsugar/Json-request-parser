@@ -2,7 +2,7 @@
 //  MPViewController.m
 //  MediaPlayer
 //
-//  Created by tangj on 15/4/23.
+//  Created by aggsugar on 15/4/23.
 //  Copyright (c) 2015年 Jorn Dan. All rights reserved.
 //
 

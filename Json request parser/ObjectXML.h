@@ -2,7 +2,7 @@
 //  ObjectXML.h
 //  IdealCocoa
 //
-//  Created by youknowone on 10. 1. 31..
+//  Created by aggsugar on 10. 1. 31..
 //  Copyright 2010 youknowone.org All rights reserved.
 //
 #import <Cocoa/Cocoa.h>

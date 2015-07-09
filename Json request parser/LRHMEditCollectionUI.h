@@ -2,7 +2,7 @@
 //  LRHMEditCollectionUI.h
 //  Json request parser
 //
-//  Created by tangj on 15/5/4.
+//  Created by aggsugar on 15/5/4.
 //  Copyright (c) 2015年 lanruiheimeng. All rights reserved.
 //
 

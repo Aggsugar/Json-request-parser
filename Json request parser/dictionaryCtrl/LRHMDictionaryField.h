@@ -2,8 +2,8 @@
 //  LRHMDictionaryField.h
 //  testss
 //
-//  Created by tangj on 15/4/3.
-//  Copyright (c) 2015年 tangj. All rights reserved.
+//  Created by aggsugar on 15/4/3.
+//  Copyright (c) 2015年 aggsugar. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
